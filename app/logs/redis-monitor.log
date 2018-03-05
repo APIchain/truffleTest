@@ -1,73 +1,38 @@
-2017-10-22 22:38:29.216(15336)[INFO][logger] program start.
-2017-10-22 22:38:29.376(15336)[INFO][logger] { address: '0x8d12a197cb00d4747a1fe03395095ce2a5cc6819',
-  blockHash: '0x609244a9f18e7fc898b2d6cdecf67a3dafc5b910a8d2e967657a4140df308183',
-  blockNumber: 4407707,
-  logIndex: 11,
-  transactionHash: '0x31fb3e37571b891ec79fd9c2adc4d0ed60d4bd3b939dfbdc0873907530148381',
-  transactionIndex: 24,
-  transactionLogIndex: '0x0',
-  type: 'mined',
-  event: 'Order',
-  args: 
-   { tokenGet: '0x55fc04a73f058832b4f3498dc83ceb6e53a9e314',
-     amountGet: { [String: '1'] s: 1, e: 0, c: [Object] },
-     tokenGive: '0x0000000000000000000000000000000000000000',
-     amountGive: { [String: '3736263736263736'] s: 1, e: 15, c: [Object] },
-     expires: { [String: '90000000'] s: 1, e: 7, c: [Object] },
-     nonce: { [String: '90565491955'] s: 1, e: 10, c: [Object] },
-     user: '0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615' } }
-2017-10-22 22:38:29.380(15336)[INFO][logger] order = {"TokenGet":"0x55fc04a73f058832b4f3498dc83ceb6e53a9e314","AmountGet":1,"TokenGive":"0x0000000000000000000000000000000000000000","AmountGive":3736263736263736,"Expires":90000000,"Nonce":90565491955,"User":"0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615"}
-2017-10-22 22:38:29.380(15336)[INFO][logger] { address: '0x8d12a197cb00d4747a1fe03395095ce2a5cc6819',
-  blockHash: '0xe383c034df8545d95db97cb0f5a0a2f1939d0775d91fe9fe731c7b64041895db',
-  blockNumber: 4407714,
-  logIndex: 7,
-  transactionHash: '0xc04deccdfc3daf58a69d427ce3ce94d5e9e573a306a446daff2abfc2f19d8c81',
-  transactionIndex: 11,
-  transactionLogIndex: '0x0',
-  type: 'mined',
-  event: 'Order',
-  args: 
-   { tokenGet: '0x0000000000000000000000000000000000000000',
-     amountGet: { [String: '11538461538461538'] s: 1, e: 16, c: [Object] },
-     tokenGive: '0x55fc04a73f058832b4f3498dc83ceb6e53a9e314',
-     amountGive: { [String: '3'] s: 1, e: 0, c: [Object] },
-     expires: { [String: '90000000'] s: 1, e: 7, c: [Object] },
-     nonce: { [String: '25799787902'] s: 1, e: 10, c: [Object] },
-     user: '0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615' } }
-2017-10-22 22:38:29.381(15336)[INFO][logger] order = {"TokenGet":"0x0000000000000000000000000000000000000000","AmountGet":11538461538461538,"TokenGive":"0x55fc04a73f058832b4f3498dc83ceb6e53a9e314","AmountGive":3,"Expires":90000000,"Nonce":25799787902,"User":"0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615"}
-2017-10-22 22:38:29.381(15336)[INFO][logger] { address: '0x8d12a197cb00d4747a1fe03395095ce2a5cc6819',
-  blockHash: '0xc0c4ce2d25c47c33423a1416bae93686dfb27a357d8a072b1cd139c1eed8d1f9',
-  blockNumber: 4407734,
-  logIndex: 14,
-  transactionHash: '0x5b1afa04b2875d8ce7e900c35b604e494e0262b3a7fe56d84d7ea8e0061eb494',
-  transactionIndex: 25,
-  transactionLogIndex: '0x0',
-  type: 'mined',
-  event: 'Order',
-  args: 
-   { tokenGet: '0x0000000000000000000000000000000000000000',
-     amountGet: { [String: '7619047619047619'] s: 1, e: 15, c: [Object] },
-     tokenGive: '0x55fc04a73f058832b4f3498dc83ceb6e53a9e314',
-     amountGive: { [String: '2'] s: 1, e: 0, c: [Object] },
-     expires: { [String: '90000000'] s: 1, e: 7, c: [Object] },
-     nonce: { [String: '89731467821'] s: 1, e: 10, c: [Object] },
-     user: '0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615' } }
-2017-10-22 22:38:29.382(15336)[INFO][logger] order = {"TokenGet":"0x0000000000000000000000000000000000000000","AmountGet":7619047619047619,"TokenGive":"0x55fc04a73f058832b4f3498dc83ceb6e53a9e314","AmountGive":2,"Expires":90000000,"Nonce":89731467821,"User":"0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615"}
-2017-10-22 22:38:29.382(15336)[INFO][logger] { address: '0x8d12a197cb00d4747a1fe03395095ce2a5cc6819',
-  blockHash: '0x58b129d17ef2cd072c1c3942d9811116cbcf2da43cdada3a33d6a3e893292218',
-  blockNumber: 4407765,
-  logIndex: 4,
-  transactionHash: '0x0fd45a50c8d25efd34fa2f3200f32591ac70d3a3edb4f1bd292786f08083551c',
-  transactionIndex: 14,
-  transactionLogIndex: '0x0',
-  type: 'mined',
-  event: 'Order',
-  args: 
-   { tokenGet: '0x0000000000000000000000000000000000000000',
-     amountGet: { [String: '7692307692307692'] s: 1, e: 15, c: [Object] },
-     tokenGive: '0x55fc04a73f058832b4f3498dc83ceb6e53a9e314',
-     amountGive: { [String: '2'] s: 1, e: 0, c: [Object] },
-     expires: { [String: '90000000'] s: 1, e: 7, c: [Object] },
-     nonce: { [String: '93745453434'] s: 1, e: 10, c: [Object] },
-     user: '0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615' } }
-2017-10-22 22:38:29.384(15336)[INFO][logger] order = {"TokenGet":"0x0000000000000000000000000000000000000000","AmountGet":7692307692307692,"TokenGive":"0x55fc04a73f058832b4f3498dc83ceb6e53a9e314","AmountGive":2,"Expires":90000000,"Nonce":93745453434,"User":"0x7af0a1e1a81645b8fe1ce38e5001f526f3bc3615"}
+2018-03-04 16:56:16.493(10116)[INFO][logger] /////////////////////////////////////////////////////////////////////////////////////////////
+2018-03-04 16:56:16.494(10116)[INFO][logger] request received, Addr=0x00388aC2b00A280A2Fa46dEa7dd2E313e825685d,Amount=136
+2018-03-04 16:56:16.746(10116)[INFO][logger] num transactions so far: 103
+2018-03-04 16:56:17.045(10116)[INFO][logger] Balance before send: 99999999999999999998 
+------------------------
+2018-03-04 16:56:17.353(10116)[INFO][logger] Raw of Transaction: 
+{
+	"from": "0xa210Fb4Dc50dA7078015C10C3b2ec424Ca80A335",
+	"nonce": "0x67",
+	"gasPrice": "0x1dcd65000",
+	"gasLimit": "0x2dc6c0",
+	"to": "0xFF603F43946A3A28DF5E6A73172555D8C8b02386",
+	"value": "0x0",
+	"data": "0xa9059cbb00000000000000000000000000388ac2b00a280a2fa46dea7dd2e313e825685d0000000000000000000000000000000000000000000000000000000000000088",
+	"chainId": 1
+}
+------------------------
+2018-03-04 16:56:17.369(10116)[INFO][logger] Attempting to send signed tx:  f8aa678501dcd65000832dc6c094ff603f43946a3a28df5e6a73172555d8c8b0238680b844a9059cbb00000000000000000000000000388ac2b00a280a2fa46dea7dd2e313e825685d000000000000000000000000000000000000000000000000000000000000008826a02cc3b3c7a15b9c2946014062904cd7b276f78dcb6a0265229f32f91d7a43b313a055a2e9237995f38f9591a79837e91762b1321aedd3acfc0cf79e4b74a7126382
+------------------------
+2018-03-04 16:56:34.875(10116)[INFO][logger] /////////////////////////////////////////////////////////////////////////////////////////////
+2018-03-04 16:56:34.875(10116)[INFO][logger] request received, Addr=0x00388aC2b00A280A2Fa46dEa7dd2E313e825685d,Amount=1363
+2018-03-04 16:56:35.139(10116)[INFO][logger] num transactions so far: 103
+2018-03-04 16:56:35.884(10116)[INFO][logger] Balance before send: 99999999999999999998 
+------------------------
+2018-03-04 16:56:36.124(10116)[INFO][logger] Raw of Transaction: 
+{
+	"from": "0xa210Fb4Dc50dA7078015C10C3b2ec424Ca80A335",
+	"nonce": "0x67",
+	"gasPrice": "0x1dcd65000",
+	"gasLimit": "0x2dc6c0",
+	"to": "0xFF603F43946A3A28DF5E6A73172555D8C8b02386",
+	"value": "0x0",
+	"data": "0xa9059cbb00000000000000000000000000388ac2b00a280a2fa46dea7dd2e313e825685d0000000000000000000000000000000000000000000000000000000000000553",
+	"chainId": 1
+}
+------------------------
+2018-03-04 16:56:36.134(10116)[INFO][logger] Attempting to send signed tx:  f8aa678501dcd65000832dc6c094ff603f43946a3a28df5e6a73172555d8c8b0238680b844a9059cbb00000000000000000000000000388ac2b00a280a2fa46dea7dd2e313e825685d000000000000000000000000000000000000000000000000000000000000055325a0f821f915063638e0a65486f2ead8febdc8965920e194c7a5b19c30e337605400a044e0604503439befe5f06bed0d954fb00e566bbe2452c30731f2227e7abe34df
+------------------------
